@@ -1,8 +1,8 @@
 [package]
-authors = ["kamui-akatuki"]
+authors = ["{{authors}}"]
 edition = "2018"
 readme = "README.md"
-name = "stm32-test"
+name = "{{project-name}}"
 version = "0.1.0"
 
 [dependencies]
@@ -31,7 +31,7 @@ features = ["stm32f446", "rt"]
 
 # this lets you use `cargo fix`!
 [[bin]]
-name = "stm32-test"
+name = "{{project-name}}"
 test = false
 bench = false
 
